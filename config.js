@@ -14,6 +14,12 @@ export default {
   description: "Open source publishing platform for open science.",
   splash_title: "Open source publishing platform for open science.",
   recaptcha: "6Lc_xuUUAAAAALwowUq0cC0wFtFnZ2NCi3UH4i1j",
+  location: {
+    origin:
+      "https://www.openstreetmap.org/export/embed.html?bbox=2.356580793857575%2C48.850586483414915%2C2.361644804477692%2C48.85278204589751&amp;layer=mapnik&amp;marker=48.851684276691216%2C2.359112799167633",
+    target:
+      "https://www.openstreetmap.org/?mlat=48.85168&amp;mlon=2.35911#map=19/48.85168/2.35911",
+  },
   // graphqlEndpoint:
   //   'https://mz3e6z5nlngvdls3zh3possona.appsync-api.eu-west-2.amazonaws.com/graphql',
   // graphqlApiKey: 'da2-eb5bkfhsvbdz3mexfykmkwjka4',
@@ -82,14 +88,14 @@ export default {
       dsn: "https://a329c0ed448543d098d4c1956b6bffb4@sentry.paris-ias.io/13",
     },
     ackee: {
-      domain: "0406b6c9-6dfc-44de-bb13-83bc0607cb14",
+      domain: "cfe2c3ce-f188-4b37-807a-f3839a49e040",
       server: "https://ackee.paris-ias.io/",
     },
     zenodo: {
       token: process.env.ZENODO_TOKEN,
       sandboxToken: process.env.ZENODO_SANDBOX_TOKEN,
       sandbox: true,
-      community: "testgrtghrt",
+      community: "PIAS",
     },
     image: {
       domains: [
