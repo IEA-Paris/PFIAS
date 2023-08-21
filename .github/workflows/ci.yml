@@ -1,0 +1,24 @@
+name: Trigger PIAS CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  yggdrasil:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Invoke PIAS workflow
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: Deploy
+          repo: IEA-Paris/PIAS
+          token: ${{ secrets.SERVICE_USER_PAT }}
+          ref: refs/heads/develop
+          inputs: '{ "forceFrontendJob": "1", "websiteName": "PFIAS" }'
