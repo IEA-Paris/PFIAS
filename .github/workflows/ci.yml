@@ -21,4 +21,4 @@ jobs:
           repo: IEA-Paris/PIAS
           token: ${{ secrets.SERVICE_USER_PAT }}
           ref: refs/heads/main
-          inputs: '{ "forceFrontendJob": "1", "websiteName": "PFIAS" }'
+          inputs: '{ }'
