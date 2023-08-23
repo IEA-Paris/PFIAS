@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  yggdrasil:
+  PPIAS:
     runs-on: ubuntu-latest
 
     defaults:
@@ -20,5 +20,5 @@ jobs:
           workflow: Deploy
           repo: IEA-Paris/PIAS
           token: ${{ secrets.SERVICE_USER_PAT }}
-          ref: refs/heads/develop
+          ref: refs/heads/main
           inputs: '{ "forceFrontendJob": "1", "websiteName": "PFIAS" }'
