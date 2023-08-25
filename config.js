@@ -3,6 +3,7 @@ import colors from "vuetify/es5/util/colors"
 export default {
   env: { NODE_ENV: "dev" },
   name: "PFIAS",
+  domain: "france", //> france.pias.science
   full_name: "Proceedings of the French Institutes for Advanced Study", // set to false if there is none
   full_name_html:
     "Proceedings of the French&nbsp;Institutes<br>for Advanced&nbsp;Study", // set to false if there is none
