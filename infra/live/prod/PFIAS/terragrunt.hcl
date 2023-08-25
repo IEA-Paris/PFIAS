@@ -1,5 +1,5 @@
 terraform {
-  source = "../../../modules//pfias"
+  source = "../../../modules//PFIAS"
 }
 
 include {
