@@ -53,7 +53,7 @@ export default {
       bibliography: true,
     },
     disseminate: {
-      Zenodo: true,
+      Zenodo: false,
     },
   },
   theme: {
