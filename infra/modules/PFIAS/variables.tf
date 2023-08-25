@@ -7,3 +7,6 @@ variable "region" {
 variable "name" {
   default = "PFIAS"
 }
+variable "domain" {
+  default = "france"
+}
