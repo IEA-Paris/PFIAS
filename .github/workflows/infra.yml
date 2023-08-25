@@ -1,11 +1,12 @@
-name: Trigger PIAS CI
+name: Trigger PIAS Infrastructure
 
 on:
   push:
     branches:
-      - main
-    paths-ignore:
-      - 'infra/**'
+    - main
+    paths:
+    - infra/**
+
 jobs:
   PPIAS:
     runs-on: ubuntu-latest
@@ -18,7 +19,7 @@ jobs:
       - name: Invoke PIAS workflow
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: ci
+          workflow: infra
           repo: IEA-Paris/PIAS
           token: ${{ secrets.SERVICE_USER_PAT }}
           ref: refs/heads/main
