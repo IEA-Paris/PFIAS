@@ -11,7 +11,7 @@ backend:
   cms_label_prefix: "IEA-Paris/"
 publish_mode: editorial_workflow
 media_folder: "static"
-logo_url: https://paris.pias.science/pfias.svg
+logo_url: https://france.pias.science/logo.png
 show_preview_links: false
 i18n:
   structure: multiple_folders
@@ -24,7 +24,7 @@ collections:
     nested:
       depth: 2
       summary: "{{lastname}} {{firstname}}"
-    folder: "content/authors" # The path to the folder where the documents are stored
+    folder: "authors" # The path to the folder where the documents are stored
     create: true
     slug: "{{lastname}}-{{firstname}}"
     summary: "{{lastname}} {{firstname}}"
@@ -161,7 +161,7 @@ collections:
       depth: 5
       summary: "{{title}}"
     label: "Articles" # Used in the UI
-    folder: "content/articles" # The path to the folder where the documents are stored
+    folder: "articles" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     sortable_fields: ["date", "article_title", "issue"] # The fields on which it should be sortable
@@ -416,7 +416,7 @@ collections:
       - { label: "Article", name: "body", widget: "markdown" }
   - name: "issues" # Used in routes, e.g., /admin/collections/blog
     label: "Issues" # Used in the UI
-    folder: "content/issues" # The path to the folder where the documents are stored
+    folder: "issues" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{name_of_the_issue}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -449,7 +449,7 @@ collections:
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     i18n: true
-    folder: "content/pages" # The path to the folder where the documents are stored
+    folder: "pages" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - {
