@@ -4,7 +4,6 @@ abstract: Edited ABSTRACT 4 B-) - Ut enim ad minim veniam, quis nostrud
   aliqua. Nihil molestiae consequatur, vel illum qui dolorem eum. Nam libero
   tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
   quod maxime placeat.
-bibliography: ""
 disciplines: ""
 needDOI: false
 authors:
@@ -27,9 +26,7 @@ authors:
 bibliography: ''
 custom_pdf: ''
 date: 2021-12-09T08:00:48.000Z
-disciplines: ''
 highlight: false
-issue: content/issues/test_issue.md
 keywords: []
 published: true
 article_title: First test article
