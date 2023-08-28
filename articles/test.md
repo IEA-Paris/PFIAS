@@ -1,9 +1,9 @@
 ---
-abstract: Edited ABSTRACT - Ut enim ad minim veniam, quis nostrud exercitation
-  ullamco. Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nihil
-  molestiae consequatur, vel illum qui dolorem eum. Nam libero tempore, cum
-  soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-  placeat.
+abstract: Edited ABSTRACT twice B-) - Ut enim ad minim veniam, quis nostrud
+  exercitation ullamco. Do eiusmod tempor incididunt ut labore et dolore magna
+  aliqua. Nihil molestiae consequatur, vel illum qui dolorem eum. Nam libero
+  tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+  quod maxime placeat.
 bibliography: ""
 disciplines: ""
 needDOI: false
@@ -38,9 +38,7 @@ language: English
 ---
 ## Non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 
-
-
-Not updating?
+Updated text version
 
 Ut enim ad minim veniam, quis nostrud exercitation ullamco. Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nihil molestiae consequatur, vel illum qui dolorem eum. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.
 
