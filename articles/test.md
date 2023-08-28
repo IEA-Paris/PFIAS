@@ -33,7 +33,6 @@ article_title: First test article
 issue: content/issues/test_issue.md
 picture: ""
 yt: ""
-highlight: false
 language: English
 ---
 ## Non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
