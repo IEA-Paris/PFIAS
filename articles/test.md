@@ -30,7 +30,6 @@ highlight: false
 keywords: []
 published: true
 article_title: First test article
-date: 2021-12-09T08:00:48.000Z
 issue: content/issues/test_issue.md
 picture: ""
 yt: ""
