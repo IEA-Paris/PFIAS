@@ -1,29 +1,30 @@
 ---
-active: true
-articles: []
-exerpt: ''
-firstname: Antoine
 is_institution: false
+lastname: Cordelois
+social_channels:
+  google_scholar: ""
+  researchgate: ""
+  mendeley: ""
+  instagram: ""
+  twitter: ""
+  wikipedia: ""
+  website: ""
+  orcid: ""
+  linkedin: ""
+exerpt: ""
+picture_copyright: ""
+active: true
+years:
+  - 2021
+positions_and_institutions:
+  - institution: PARIS IAS
+    positions: []
+language:
+  - English
 issue:
   - content/issues/test issue.md
   - content/issues/test_issue.md
-language:
-  - English
-lastname: Cordelois
-picture: ''
-picture_copyright: ''
-positions_and_institutions: []
-social_channels:
-  google_scholar: ''
-  instagram: ''
-  linkedin: ''
-  mendeley: ''
-  orcid: ''
-  researchgate: ''
-  twitter: ''
-  website: ''
-  wikipedia: ''
-years:
-  - 2021
-
+firstname: Antoine
+articles: []
+picture: ""
 ---
