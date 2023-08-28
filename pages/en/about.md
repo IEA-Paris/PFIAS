@@ -1,6 +1,5 @@
 ---
 page_title: about-us
-
 ---
 The [**Proceedings of the French Institutes for Advanced Studies**](https://France.PIAS.science "PFIAS") (PFIAS) is a platform to promote and showcase the outstanding work produced by the fellows of the Institutes for Advanced Studies in France. Each of these institutes is a research center that welcomes researchers from all over the world in the various fields. It has been created by the [**French Network of Institutes for Advanced Studies**](http://rfiea "RFIEA") (RFIEA). 
 
