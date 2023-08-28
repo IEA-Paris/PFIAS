@@ -109,12 +109,14 @@ collections:
                 name: "website",
                 widget: "string",
                 default: "",
+                required: false,
               },
               {
                 label: "Wikipedia",
                 name: "wikipedia",
                 widget: "string",
                 default: "",
+                required: false,
               },
               {
                 label: "Orcid ID",
@@ -122,36 +124,42 @@ collections:
                 hint: "Add only the ORCID ID, not the URL: e.g. <strong>0000-0003-1715-2919</strong>",
                 widget: "string",
                 default: "",
+                required: false,
               },
               {
                 label: "Linkedin",
                 name: "linkedin",
                 widget: "string",
                 default: "",
+                required: false,
               },
               {
                 label: "Twitter",
                 name: "webstwitterite",
                 widget: "string",
                 default: "",
+                required: false,
               },
               {
                 label: "Google scholar",
                 name: "google_scholar",
                 widget: "string",
                 default: "",
+                required: false,
               },
               {
                 label: "ResearchGate",
                 name: "researchgate",
                 widget: "string",
                 default: "",
+                required: false,
               },
               {
                 label: "Mendeley",
                 name: "mendeley",
                 widget: "string",
                 default: "",
+                required: false,
               },
             ],
         },
@@ -443,8 +451,13 @@ collections:
           format: MM/YY,
           required: true,
         }
-      - { label: "Cover", name: "cover", widget: "image" }
-      - { label: "Cover Copyright", name: "cover_copyright", widget: "string" }
+      - { label: "Cover", name: "cover", widget: "image", required: false }
+      - {
+          label: "Cover Copyright",
+          name: "cover_copyright",
+          widget: "string",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI

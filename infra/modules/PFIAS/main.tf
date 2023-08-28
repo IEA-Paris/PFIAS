@@ -127,7 +127,7 @@ resource "aws_cloudfront_distribution" "this" {
   }
 
   viewer_certificate {
-    acm_certificate_arn            = var.env == "prod" ? "arn:aws:acm:us-east-1:720928668014:certificate/af936a71-516a-40fc-8187-121807242a41" : null
+    acm_certificate_arn            = var.env == "prod" ? local.acm_certificate_arn : null
     cloudfront_default_certificate = var.env == "prod" ? false : true
     minimum_protocol_version       = "TLSv1.2_2021"
     ssl_support_method             = "sni-only"
