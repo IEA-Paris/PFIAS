@@ -24,7 +24,7 @@ custom_pdf: ''
 date: 2021-12-09T08:00:48.000Z
 disciplines: ''
 highlight: false
-issue: content/issues/test issue.md
+issue: content/issues/test_issue.md
 keywords: []
 language: English
 needDOI: false
