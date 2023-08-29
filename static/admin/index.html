@@ -8,6 +8,12 @@
   </head>
   <body>
     <!-- Include the script that builds the page and powers Decap CMS -->
-    <script src="https://unpkg.com/netlify-cms@^2.10.17/dist/netlify-cms.js"></script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+      import CMS from "decap-cms-app"
+      import { de } from "decap-cms-locales"
+
+      CMS.registerLocale("de", de)
+    </script>
   </body>
 </html>

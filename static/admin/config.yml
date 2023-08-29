@@ -1,9 +1,9 @@
-# local_backend:
+local_backend: true
 # when using a custom proxy server port
 # url: http://192.168.0.37:3000/api/v1
 # when accessing the local site from
 backend:
-  name: github
+  name: git-gateway
   branch: main
   repo: IEA-Paris/PFIAS
   base_url: https://85o05b11ri.execute-api.eu-west-2.amazonaws.com/
@@ -11,6 +11,9 @@ backend:
   cms_label_prefix: "IEA-Paris/"
 publish_mode: editorial_workflow
 media_folder: "static"
+public_folder: "/"
+locale: fr
+site_url: https://france.pias.science
 logo_url: https://france.pias.science/logo.png
 show_preview_links: false
 i18n:
@@ -19,6 +22,7 @@ i18n:
   default_locale: en
 collections:
   - name: "authors"
+    identifier_field: lastname
     label: "Authors"
     label_singular: "Author"
     nested:
@@ -166,6 +170,7 @@ collections:
         },
       ]
   - name: "articles" # Used in routes, e.g., /admin/collections/blog
+    identifier_field: article_title
     nested:
       depth: 5
       summary: "{{title}}"
@@ -428,6 +433,7 @@ collections:
       - { label: "Article", name: "body", widget: "markdown" }
   - name: "issues" # Used in routes, e.g., /admin/collections/blog
     label: "Issues" # Used in the UI
+    identifier_field: title
     folder: "issues" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{name_of_the_issue}}" # Filename template, e.g., YYYY-MM-DD-title.md
