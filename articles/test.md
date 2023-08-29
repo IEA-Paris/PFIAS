@@ -6,12 +6,12 @@ abstract: Edited ABSTRACT 4 B-) - Ut enim ad minim veniam, quis nostrud
   quod maxime placeat.
 bibliography: /exported-items.bib
 disciplines: ""
-needDOI: false
+needDOI: true
 authors:
   - firstname: Antoine
     is_institution: false
     lastname: Cordelois
-    picture: ""
+    picture: /noun-france-26939.svg
     picture_copyright: ""
     positions_and_institutions: []
     social_channels:
