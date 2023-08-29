@@ -29,10 +29,10 @@ keywords: []
 published: true
 article_title: First test article
 date: 2021-12-09T08:00:48.000Z
-issue: /issues/second-test-issue.md
+issue: /content/issues/second-test-issue.md
 picture: /logo.png
 yt: ""
-highlight: false
+highlight: true
 language: English
 ---
 ## Non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
