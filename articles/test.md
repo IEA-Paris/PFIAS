@@ -39,6 +39,8 @@ language: English
 
 Updated text version 4
 
+<Youtube yt="9shTRT7wnuQ" caption ="How to enable sustainable production and create new green growth locally: a story of success"></Youtube>
+
 Ut enim ad minim veniam, quis nostrud exercitation ullamco. Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nihil molestiae consequatur, vel illum qui dolorem eum. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.
 
 Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. **Totam rem aperiam.** *Fugiat quo voluptas nulla pariatur?* Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
