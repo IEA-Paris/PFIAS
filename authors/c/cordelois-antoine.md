@@ -11,7 +11,7 @@ issue:
 language:
   - English
 lastname: Cordelois
-picture: ''
+picture: /noun-france-26939.svg
 picture_copyright: ''
 positions_and_institutions:
   - institution: PARIS IAS
