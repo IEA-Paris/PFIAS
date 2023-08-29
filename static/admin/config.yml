@@ -1,11 +1,11 @@
 local_backend: true
-# when using a custom proxy server port
-# url: http://192.168.0.37:3000/api/v1
+  # when using a custom proxy server port
+  url: http://192.168.0.37:3000/api/v1
 # when accessing the local site from
 backend:
-  name: git-gateway
-  branch: main
+  name: github
   repo: IEA-Paris/PFIAS
+  branch: main
   base_url: https://85o05b11ri.execute-api.eu-west-2.amazonaws.com/
   auth_endpoint: "/dev/auth"
   cms_label_prefix: "IEA-Paris/"
