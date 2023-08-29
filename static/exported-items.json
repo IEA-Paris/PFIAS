@@ -1,0 +1,28 @@
+[
+	{
+		"id": "http://zotero.org/users/137795/items/JV6XGBZG",
+		"type": "paper-conference",
+		"call-number": "0130",
+		"container-title": "Proceedings of the Australasian information security workshop conference on ACSW frontiers 2003-Volume 21",
+		"page": "159–168",
+		"source": "Google Scholar",
+		"title": "A survey of research on context-aware homes",
+		"author": [
+			{
+				"family": "Meyer",
+				"given": "S."
+			},
+			{
+				"family": "Rakotonirainy",
+				"given": "A."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2003"
+				]
+			]
+		}
+	}
+]
