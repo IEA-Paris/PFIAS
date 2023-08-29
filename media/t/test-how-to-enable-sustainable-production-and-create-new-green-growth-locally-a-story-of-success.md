@@ -8,7 +8,7 @@ highlight: false
 index: -1
 issue: /issues/second-test-issue.md
 language: English
-picture: ''
+picture: /logo.png
 type: youtube
 years: 2021
 
