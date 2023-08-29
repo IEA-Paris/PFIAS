@@ -4,6 +4,7 @@ abstract: Edited ABSTRACT 4 B-) - Ut enim ad minim veniam, quis nostrud
   aliqua. Nihil molestiae consequatur, vel illum qui dolorem eum. Nam libero
   tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
   quod maxime placeat.
+bibliography: /static/exported-items.bib
 disciplines: ""
 needDOI: false
 authors:
@@ -14,25 +15,24 @@ authors:
     picture_copyright: ""
     positions_and_institutions: []
     social_channels:
-      google_scholar: ''
-      instagram: ''
-      linkedin: ''
-      mendeley: ''
-      orcid: ''
-      researchgate: ''
-      twitter: ''
-      website: ''
-      wikipedia: ''
-bibliography: ''
-custom_pdf: ''
-date: 2021-12-09T08:00:48.000Z
-highlight: false
+      google_scholar: ""
+      researchgate: ""
+      mendeley: ""
+      instagram: ""
+      twitter: ""
+      wikipedia: ""
+      website: ""
+      orcid: ""
+      linkedin: ""
+custom_pdf: ""
 keywords: []
 published: true
 article_title: First test article
-issue: content/issues/test_issue.md
+date: 2021-12-09T08:00:48.000Z
+issue: /issues/second-test-issue.md
 picture: ""
 yt: ""
+highlight: false
 language: English
 ---
 ## Non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
