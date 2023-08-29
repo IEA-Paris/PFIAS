@@ -10,7 +10,7 @@ backend:
   auth_endpoint: "/dev/auth"
   cms_label_prefix: "IEA-Paris/"
 publish_mode: editorial_workflow
-media_folder: "static"
+media_folder: ""
 logo_url: https://france.pias.science/logo.png
 show_preview_links: false
 i18n:
@@ -367,7 +367,6 @@ collections:
           name: "picture",
           widget: "image",
           required: false,
-
           hint:
             "Picture used as thumbnail and article splash. Not used if a youtube
             ID is provided as thumbnail below.",
@@ -421,6 +420,7 @@ collections:
               Japanese,
               Greek,
               Spanish,
+              Other,
             ],
         }
       - { label: "Article", name: "body", widget: "markdown" }

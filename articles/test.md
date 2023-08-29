@@ -4,7 +4,7 @@ abstract: Edited ABSTRACT 4 B-) - Ut enim ad minim veniam, quis nostrud
   aliqua. Nihil molestiae consequatur, vel illum qui dolorem eum. Nam libero
   tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
   quod maxime placeat.
-bibliography: /static/exported-items.bib
+bibliography: /exported-items.bib
 disciplines: ""
 needDOI: false
 authors:
