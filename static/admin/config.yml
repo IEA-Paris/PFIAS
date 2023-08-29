@@ -1,4 +1,4 @@
-local_backend: true
+local_backend:
   # when using a custom proxy server port
   url: http://192.168.0.37:3000/api/v1
 # when accessing the local site from
