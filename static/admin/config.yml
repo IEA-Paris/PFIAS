@@ -1,7 +1,7 @@
-local_backend:
-  # when using a custom proxy server port
-  url: http://192.168.0.37:3000/api/v1
-  # when accessing the local site from
+# local_backend:
+# when using a custom proxy server port
+# url: http://192.168.0.37:3000/api/v1
+# when accessing the local site from
 backend:
   name: github
   branch: main
@@ -10,7 +10,7 @@ backend:
   auth_endpoint: "/dev/auth"
   cms_label_prefix: "IEA-Paris/"
 publish_mode: editorial_workflow
-media_folder: ""
+media_folder: "static"
 logo_url: https://france.pias.science/logo.png
 show_preview_links: false
 i18n:
@@ -342,6 +342,8 @@ collections:
           name: "custom_pdf",
           widget: "file",
           required: false,
+          allow_multiple: false,
+          media_library: { allow_multiple: false, media_folder: "pdfs" },
           hint: "If used, the usual PDF will not be generated (and the
             file provided will be used instead)",
         }
