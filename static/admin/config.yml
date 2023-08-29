@@ -360,7 +360,7 @@ collections:
           label: "Issue",
           name: "issue",
           widget: "file",
-          media_folder: "/content/issues",
+          media_folder: "/issues",
         }
       - {
           label: "Picture",
@@ -398,7 +398,7 @@ collections:
           label: "Bibliography",
           name: "bibliography",
           media_library:
-            { allow_multiple: false, media_folder: "/static/bibliography" },
+            { allow_multiple: false, media_folder: "/bibliographies" },
           widget: "file",
           required: false,
         }
