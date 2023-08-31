@@ -14,7 +14,7 @@ media_folder: "static"
 public_folder: "/"
 locale: fr
 site_url: https://france.pias.science
-logo_url: https://france.pias.science/logo.png
+logo_url: https://france.pias.science/icon.png
 show_preview_links: false
 i18n:
   structure: multiple_folders

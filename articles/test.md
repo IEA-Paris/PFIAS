@@ -30,7 +30,7 @@ published: true
 article_title: First test article
 date: 2021-12-09T08:00:48.000Z
 issue: /content/issues/second-test-issue.md
-picture: /logo.png
+picture: /icon.png
 yt: ""
 highlight: true
 language: English

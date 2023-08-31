@@ -11,7 +11,7 @@ export default {
   phone: "+33(0)1 56 81 00 52",
   email: "publications@paris-iea.fr",
   subtitle: "Open source publishing platform for open science.",
-  logo: "logo.png",
+  logo: "icon.png",
   description: "Open source publishing platform for open science.",
   splash_title: "Open source publishing platform for open science.",
   recaptcha: "6Lc_xuUUAAAAALwowUq0cC0wFtFnZ2NCi3UH4i1j",
@@ -25,7 +25,7 @@ export default {
   //   'https://mz3e6z5nlngvdls3zh3possona.appsync-api.eu-west-2.amazonaws.com/graphql',
   // graphqlApiKey: 'da2-eb5bkfhsvbdz3mexfykmkwjka4',
   keywords: "open source, open science, science, vuejs, nuxt, vuetify, vuex",
-  url: "https://paris.pias.science",
+  url: "https://france.pias.science",
   lang: {
     default: "en",
     locales: [
