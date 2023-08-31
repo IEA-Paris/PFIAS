@@ -3,12 +3,12 @@ name: Trigger PIAS Infrastructure
 on:
   push:
     branches:
-    - main
+      - main
     paths:
-    - infra/**
+      - infra/**
 
 jobs:
-  PPIAS:
+  PFIAS:
     runs-on: ubuntu-latest
 
     defaults:
@@ -23,4 +23,4 @@ jobs:
           repo: IEA-Paris/PIAS
           token: ${{ secrets.SERVICE_USER_PAT }}
           ref: refs/heads/main
-          inputs: '{ "name": "PFIAS", "domain": "france" }'
+          inputs: '{ "name": "PFIAS", "domain": "france", "acm_certificate_arn": "arn:aws:acm:us-east-1:720928668014:certificate/af936a71-516a-40fc-8187-121807242a41"}'

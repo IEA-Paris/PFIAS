@@ -15,6 +15,8 @@ export default {
   description: "Open source publishing platform for open science.",
   splash_title: "Open source publishing platform for open science.",
   recaptcha: "6Lc_xuUUAAAAALwowUq0cC0wFtFnZ2NCi3UH4i1j",
+  acm_certificate_arn:
+    "arn:aws:acm:us-east-1:720928668014:certificate/af936a71-516a-40fc-8187-121807242a41",
   location: {
     origin:
       "https://www.openstreetmap.org/export/embed.html?bbox=2.356580793857575%2C48.850586483414915%2C2.361644804477692%2C48.85278204589751&amp;layer=mapnik&amp;marker=48.851684276691216%2C2.359112799167633",
