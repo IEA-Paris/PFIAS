@@ -6,7 +6,7 @@ caption: >-
 date: 2021-12-09T08:00:48.000Z
 highlight: true
 index: -1
-issue: /content/issues/second-test-issue.md
+issue: content/issues/second-test-issue.md
 language: English
 picture: /icon.png
 type: youtube
