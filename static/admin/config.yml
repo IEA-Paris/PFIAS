@@ -39,6 +39,7 @@ collections:
           name: "is_institution",
           widget: "boolean",
           default: false,
+          required: false,
         },
         {
           label: Firstname,
@@ -218,6 +219,8 @@ collections:
                 label: "Is institution",
                 name: "is_institution",
                 widget: "boolean",
+                default: false,
+                required: false,
               },
               {
                 label: Firstname,
@@ -368,7 +371,7 @@ collections:
           name: "issue",
           widget: "file",
           media_folder: "/issues",
-          public_folder: "/content/issues",
+          public_folder: "content/issues",
         }
       - {
           label: "Picture",

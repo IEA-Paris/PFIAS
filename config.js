@@ -98,7 +98,7 @@ export default {
       token: process.env.ZENODO_TOKEN,
       sandboxToken: process.env.ZENODO_SANDBOX_TOKEN,
       sandbox: true,
-      community: "PIAS",
+      community: "proceedings-of-the-insitutes-for-advanced-studies",
     },
     image: {
       domains: [
