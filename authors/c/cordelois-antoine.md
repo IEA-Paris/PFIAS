@@ -9,6 +9,7 @@ issue:
   - content/issues/test_issue.md
   - /issues/second-test-issue.md
   - /content/issues/second-test-issue.md
+  - content/issues/second-test-issue.md
 language:
   - English
 lastname: Cordelois
