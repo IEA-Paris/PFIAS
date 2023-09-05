@@ -1,7 +1,8 @@
-import colors from "vuetify/es5/util/colors"
+import colors from "vuetify/es5/util/colors.js"
 
 export default {
   env: { NODE_ENV: "dev" },
+  repo: "IEA-Paris/PFIAS",
   name: "PFIAS",
   domain: "france", //> france.pias.science
   full_name: "Proceedings of the French Institutes for Advanced Study", // set to false if there is none
@@ -73,13 +74,13 @@ export default {
         warning: "#FFC107",
       },
       dark: {
-        primary: colors.blue,
-        accent: colors.grey.darken3,
-        secondary: colors.grey.darken3,
-        info: colors.teal.lighten1,
-        warning: colors.amber.darken3,
-        error: colors.deepOrange.darken3,
-        success: colors.green.accent3,
+        primary: "#2196f3",
+        secondary: "#424242",
+        accent: "#82B1FF",
+        error: "#FF5252",
+        info: "#2196F3",
+        success: "#4CAF50",
+        warning: "#FFC107",
       },
     },
   },
