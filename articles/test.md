@@ -11,7 +11,6 @@ authors:
   - firstname: Antoine
     is_institution: false
     lastname: Cordelois
-    picture: /noun-france-26939.svg
     picture_copyright: ""
     positions_and_institutions: []
     social_channels:
