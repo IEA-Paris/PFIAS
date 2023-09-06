@@ -13,6 +13,7 @@ export default {
   email: "publications@paris-iea.fr",
   subtitle: "Open source publishing platform for open science.",
   logo: "icon.png",
+  logo_alt: "icon_w.png",
   description: "Open source publishing platform for open science.",
   splash_title: "Open source publishing platform for open science.",
   recaptcha: "6Lc_xuUUAAAAALwowUq0cC0wFtFnZ2NCi3UH4i1j",
@@ -89,7 +90,7 @@ export default {
   },
   modules: {
     sentry: {
-      dsn: "https://a329c0ed448543d098d4c1956b6bffb4@sentry.paris-ias.io/13",
+      dsn: "https://8a33f349628442338114e41535dc1f28@sentry.paris-ias.io/27",
     },
     ackee: {
       domain: "cfe2c3ce-f188-4b37-807a-f3839a49e040",
